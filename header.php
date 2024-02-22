@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Teknik Informatika</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/styles.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+      /* Ubah warna teks pada judul navbar dan nama-nama menu menjadi putih */
+      .navbar-inverse .navbar-brand,
+      .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff; /* Warna putih */
+      }
+      /* Ubah warna teks menu saat dihover menjadi putih */
+      .navbar-inverse .navbar-nav > li > a:hover,
+      .navbar-inverse .navbar-nav > li > a:focus {
+        color: #ffffff; /* Warna putih */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Awal script Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="scrollspy">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">TEKNIK INFORMATIKA-S1<p>  <h4>Fakultas Teknik-Universitas Negeri Yogyakarta<h4></p></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.php"><span class="glyphicon glyphicon-home"></span> HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+              <a href="about.php"><span class="glyphicon glyphicon-info-sign"></span> ABOUT</a>
+            </li>
+             <li>
+              <a href="artikel.php"><span class="glyphicon glyphicon-book"></span> ARTIKEL</a>
+            </li>
+
+              <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-tasks"></span> PENDAFTARAN <span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                <li><a href="reguler.php">REGULER</a></li>
+                <li><a href="kipkuliah.php">KIP KULIAH</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="contact.php"><span class="glyphicon glyphicon-envelope"></span> CONTACT</a>
+            </li>
+            <li>
+              <a href="login.php"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- Akhir script Navbar -->
+  </body>
+</html>
